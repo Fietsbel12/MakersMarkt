@@ -23,6 +23,6 @@ Example: LoginView, UserModel, IsLoggedIn
 
 # GitHub/Git
 - Make a commit for every change.
-- Once your changes are finished, open a pull request and tell me—I’ll merge it into main.
+- Once your changes are finished, open a pull request and tell your coworker—they’ll merge it into main.
 - For each new fix or change, create a branch with a clear, descriptive name.
 - Add a description to the commit message.
