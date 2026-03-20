@@ -10,6 +10,11 @@ namespace MakersMarkt.Data
 {
     class AppDbContext : DbContext
     {
+        public DbSet<User> Users { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Products> Products { get; set; }
+        public DbSet<Reviews> Reviews { get; set; }
+        public DbSet<Orders> Orders { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql(
