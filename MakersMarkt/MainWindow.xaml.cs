@@ -1,4 +1,5 @@
 using MakersMarkt.Data;
+using MakersMarkt.Pages;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -32,6 +33,8 @@ namespace MakersMarkt
 
             db.Database.EnsureDeleted();
             db.Database.EnsureCreated();
+
+            MainFrame.Navigate(typeof(HomePage));
         }
     }
 }

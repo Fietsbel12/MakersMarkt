@@ -8,6 +8,7 @@ namespace MakersMarkt.Data
 {
     internal class User
     {
+        public static User? CurrentUser { get; set; }
         public int UserId { get; set; }
         public string UserName { get; set; }
 
