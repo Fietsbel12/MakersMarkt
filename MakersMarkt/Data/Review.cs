@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MakersMarkt.Data
 {
-    internal class Orders
+    internal class Review
     {
-        public int OrderId { get; set; }
-        public int BuyerId { get; set; }
+        public int ReviewId { get; set; }
         public int ProductId { get; set; }
-        public string status { get; set; }
-        public string StatusDescription { get; set; }
+        public int UserId { get; set; }
+        public int Rating { get; set; }
+        public string Comment { get; set; }
     }
 }
